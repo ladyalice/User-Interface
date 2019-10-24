@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+ /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -64,3 +64,74 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+
+	width: 900px;
+	margin: auto;
+	border: 1px solid red;
+}
+
+/*use shift and/or just up / down arrows in dev tools + selector then you know what it generally should look like before typing code here*/
+header nav {
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+header nav a {
+	/* TB LR (trouble / tribble) (top bottom, left and right)*/
+	margin: 0 30px;
+}
+
+header img.logo {
+	    margin-left: 19px;
+}
+/*cheatinggggg */
+
+header .slogan-img {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: flex-start;
+	padding-bottom: 20px;
+
+
+}
+
+header .slogan-img-child{
+	justify-content: center;
+}
+
+
+/*not cheating lol*/
+/*
+header .slogan-img {
+	display: inline-block;
+	padding: 30px 114px 20px 50px;
+	margin-left: 10px;
+	box-sizing: border-box;
+}
+
+header .slogan-only {
+
+	display: inline-block;
+	padding: 20px;
+}
+*/
+
+
+header h1 {
+	font-size: 60px;
+	text-align: center
+}
+
+header button {
+	padding: 10px 30px 10px 30px;
+	border: 1px solid black;
+	
+
+}
+
+
+
